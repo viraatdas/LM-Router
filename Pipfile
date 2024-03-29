@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+boto3 = "*"
+fastapi = "*"
+uvicorn = "*"
+torch = "*"
+transformers = "*"
+datasets = "*"
+accelerate = "*"
+gradio = "*"
+sentencepiece = "*"
+typing-extensions = "*"
+pydantic = {version = "*", extras = ["email"]}
+ollama = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
